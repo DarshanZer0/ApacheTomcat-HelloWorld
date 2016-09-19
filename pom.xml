@@ -32,8 +32,10 @@
                     <version>2.2</version>
                     <configuration>
 			<url>http://localhost:8080/manager/text</url>
-                        <server>TomcatServer</server>
+                        <server>tomcatserver</server>
                         <path>/home/ops_user/.jenkins/workspace/DCApache-HelloWorld/target</path>
+			<username>admin</username>
+        		<password>admin</password>
                     </configuration>
                 </plugin>
             <plugin>
