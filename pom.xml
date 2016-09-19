@@ -25,6 +25,14 @@
         <failOnMissingWebXml>false</failOnMissingWebXml>
     </properties>
     <build>
+	<plugin>
+                    <groupId>org.apache.tomcat.maven</groupId>
+                    <artifactId>tomcat7-maven-plugin</artifactId>
+                    <version>2.2</version>
+                    <configuration>
+                        <url>http://10.10.11.33:8081/</url>
+                    </configuration>
+                </plugin>
         <plugins>
             <plugin>
                 <groupId>org.wildfly.plugins</groupId>
