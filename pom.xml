@@ -117,6 +117,9 @@
                 <groupId>org.wildfly.plugins</groupId>
                 <artifactId>wildfly-maven-plugin</artifactId>
                 <version>${version.wildfly.maven.plugin}</version>
+		<configuration>
+                 <hostname>127.0.0.1</hostname>
+                </configuration>
             </plugin>
 		<plugin>
                     <groupId>org.apache.tomcat.maven</groupId>
