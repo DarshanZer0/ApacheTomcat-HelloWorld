@@ -32,7 +32,7 @@
                     <version>2.2</version>
                     <configuration>
                         <url>http://10.10.11.33:8081/manager/text</url>
-                        <server>TomcatServer</server>
+                        <server>deploymentRepo</server>
                         <path>/home/ops_user/.jenkins/workspace/DCApache-HelloWorld/target</path>
                     </configuration>
                 </plugin>
