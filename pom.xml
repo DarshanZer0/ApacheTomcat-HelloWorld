@@ -31,7 +31,9 @@
                     <artifactId>tomcat7-maven-plugin</artifactId>
                     <version>2.2</version>
                     <configuration>
-                        <url>http://10.10.11.33:8081/</url>
+			<url>http://localhost:8080/manager/text</url>
+                        <server>TomcatServer</server>
+                        <path>/home/ops_user/.jenkins/workspace/DCApache-HelloWorld/target</path>
                     </configuration>
                 </plugin>
             <plugin>
