@@ -22,6 +22,7 @@
     <properties>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
+	<maven.tomcat.url>http://10.10.11.33:8081/manager/text</maven.tomcat.url>
         <failOnMissingWebXml>false</failOnMissingWebXml>
     </properties>
     <build>
